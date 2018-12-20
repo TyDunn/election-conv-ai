@@ -1,0 +1,2641 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "Hi", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hey", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "heya", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Hello", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "What's up", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Heya", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Greetings", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Good  morning", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Good afternoon", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Good evening", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Hey sir", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Hi person", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Hey robot", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Hello bot", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Hey", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Hi bot", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Hey bot", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Hello", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Good morning", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi again", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi folks", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi Mister", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi pal!", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hi there", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "greetings", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hello everybody", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hello is anybody there", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "hello robot", 
+        "intent": "greet"
+      }, 
+      {
+        "text": "Bye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "Goodbye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "Talk to you later", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "See you", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "See you later", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "Bye bye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "Bye for now", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "Goodbye bot", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "Bye bot", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "Goodbye friend", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "bye", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "bye for now", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "catch you later", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "gotta go", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "See you", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "goodnight", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "have a nice day", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "i'm off", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "see you later alligator", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "we'll speak soon", 
+        "intent": "goodbye"
+      }, 
+      {
+        "text": "yes", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yup", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yes, that sounds good", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "sure", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "definitely", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "absolutely", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "please do", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yes, please", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yes for sure", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yes sure", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "absolutely", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "for sure", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yes yes yes", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "definitely", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "sure", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "OK", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yea", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "ya", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yah", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yuh", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "affirmative", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "aye", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yup", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "ja", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "fo sho", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "totally", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yessir", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "yes sir", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "you bet", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "of course", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "sure thing", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "sounds good", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "certainly", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "indeed", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "obviously", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "thumbs up", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "I would support that", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "I think that is a good idea", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "I am on board with that", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "I would vote for that", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "I really like that idea", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "I think that would be awesome", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "100%", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "I agree with that", 
+        "intent": "affirm"
+      }, 
+      {
+        "text": "thanks", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "thank you", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "Thanks a lot", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "Thanks a bunch", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "Thank you very much", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "Thank you so much", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "Thanks", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "Thank you", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "Thanks bot", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "Thanks for that", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "cheers", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "cheers bro", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "ok thanks!", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "perfect thank you", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "thanks a bunch for everything", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "thanks for the help", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "thanks a lot", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "amazing, thanks", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "cool, thanks", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "cool thank you", 
+        "intent": "thanks"
+      }, 
+      {
+        "text": "What are the issues?", 
+        "intent": "issues"
+      }, 
+      {
+        "text": "What do you know about?", 
+        "intent": "issues"
+      }, 
+      {
+        "text": "What are the policies you have information on?", 
+        "intent": "issues"
+      }, 
+      {
+        "text": "Do you know about universal healthcare?", 
+        "intent": "issues"
+      }, 
+      {
+        "text": "Can you answer questions about gun control?", 
+        "intent": "issues"
+      }, 
+      {
+        "text": "What can I ask about?", 
+        "intent": "issues"
+      }, 
+      {
+        "text": "Who are the candidates?", 
+        "intent": "candidates"
+      }, 
+      {
+        "text": "Who is running in this election?", 
+        "intent": "candidates"
+      }, 
+      {
+        "text": "Who are the politicans?", 
+        "intent": "candidates"
+      }, 
+      {
+        "text": "What are the names of the candidates?", 
+        "intent": "candidates"
+      }, 
+      {
+        "text": "What does the ballot look like?", 
+        "intent": "candidates"
+      }, 
+      {
+        "text": "When is this election?", 
+        "intent": "help"
+      }, 
+      {
+        "text": "Do these candidates exist?", 
+        "intent": "help"
+      }, 
+      {
+        "text": "I need help", 
+        "intent": "help"
+      }, 
+      {
+        "text": "What is this?", 
+        "intent": "help"
+      }, 
+      {
+        "text": "Help!", 
+        "intent": "help"
+      }, 
+      {
+        "text": "No", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "Nope", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "Don't think so", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "Nooooo", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "No thanks", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "No, I don't", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "no", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "nah", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "nope", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "not at all", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "never", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "absolutely not", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "no no no", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "no thank you", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "please no", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "nay", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "no way", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "not all", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "negative", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "out of the question", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "no siree", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "not likely", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "not in a million years", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "thumbs down", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "fat chance", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "heavens, no", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "not now", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "no thanks", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "i do not support that", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "not really", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "certainly not", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "no dice", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "negative", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "no can do", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "over my dead body", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "nein", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "I do not think that is good idea", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "I do not support that", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "I would not vote for that", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "I am very opposed to that", 
+        "intent": "deny"
+      }, 
+      {
+        "text": "I would like to start the questionaire", 
+        "intent": "questionaire"
+      }, 
+      {
+        "text": "Let's do this questioniare", 
+        "intent": "questionaire"
+      }, 
+      {
+        "text": "I would like to figure out who to vote for", 
+        "intent": "questionaire"
+      }, 
+      {
+        "text": "Who should I vote for?", 
+        "intent": "questionaire"
+      }, 
+      {
+        "text": "Help me figure out who to vote for", 
+        "intent": "questionaire"
+      }, 
+      {
+        "text": "How should I vote?", 
+        "intent": "questionaire"
+      }, 
+      {
+        "text": "I want to know how I align with the candidates", 
+        "intent": "questionaire"
+      }, 
+      {
+        "text": "What do the candidates believe?", 
+        "intent": "questionaire"
+      }, 
+      {
+        "text": "I need to prepare for tomorrow", 
+        "intent": "questionaire"
+      }, 
+      {
+        "text": "I need to figure out how to fill out my ballot", 
+        "intent": "questionaire"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 25, 
+            "value": "Florence Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_energy", 
+        "text": "How does Florence Johnson feel about funding alternative energy?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Edward Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_energy", 
+        "text": "Does Edward Vargas support efforts to fight climate change?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 21, 
+            "value": "Jessica Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_energy", 
+        "text": "What does Jessica Lee think of subsidizing solar energy?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Angela Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_energy", 
+        "text": "Does Angela Newton want to increase funding for wind energy research?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 34, 
+            "value": "Muhammad Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_energy", 
+        "text": "Can you tell me how Muhammad Clark feels about accelerating alternative energy adoption?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Leon Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_energy", 
+        "text": "Does Leon Crawford think we should give tax credits for green efforts?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 20, 
+            "value": "Marcus Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_energy", 
+        "text": "Does Marcus Anderson believe that we should end our depedence on fossil fuels?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 24, 
+            "value": "Isabella Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_energy", 
+        "text": "How will Isabella Hughes vote on funding for green energy?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 17, 
+            "value": "Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_energy", 
+        "text": "What does Johnson think of alternative energy?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_energy", 
+        "text": "Does Vargas believe the transition to alternative energy sources should be funded by the public?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 8, 
+            "value": "Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_energy", 
+        "text": "Does Lee want to privatize all green energy efforts?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_energy", 
+        "text": "Will Newton spend money on climate change research?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 10, 
+            "value": "Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_energy", 
+        "text": "Does Clark think we should do something about climate change?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 13, 
+            "value": "Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_energy", 
+        "text": "Will Crawford support exploring the effects of climate change on our environment?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_energy", 
+        "text": "Can I expect Anderson to support the government financing of alternative energy companies?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_energy", 
+        "text": "Will Hughes expand alternative energy funding?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 25, 
+            "value": "Florence Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_marijuana", 
+        "text": "How does Florence Johnson feel about legalizing marijuana?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Edward Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_marijuana", 
+        "text": "Does Edward Vargas support efforts to make pot legal?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 21, 
+            "value": "Jessica Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_marijuana", 
+        "text": "What does Jessica Lee think of ending the war on marijuana?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Angela Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_marijuana", 
+        "text": "Does Angela Newton want to pass laws that decriminalize weed?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 34, 
+            "value": "Muhammad Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_marijuana", 
+        "text": "Can you tell me how Muhammad Clark feels about accelerating the legalization of marijuana?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Leon Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_marijuana", 
+        "text": "Does Leon Crawford think we should allow the use of pot?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 20, 
+            "value": "Marcus Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_marijuana", 
+        "text": "Does Marcus Anderson believe that we should end our prohibition of weed?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 24, 
+            "value": "Isabella Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_marijuana", 
+        "text": "How will Isabella Hughes vote on ending the ban on marijuana?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 17, 
+            "value": "Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_marijuana", 
+        "text": "What does Johnson think of pot?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_marijuana", 
+        "text": "Does Vargas believe that smoking weed should not be a crime?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 8, 
+            "value": "Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_marijuana", 
+        "text": "Does Lee want to allow citizens to have marijuana?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_marijuana", 
+        "text": "Will Newton make legalizing weed be a priority?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 10, 
+            "value": "Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_marijuana", 
+        "text": "Does Clark think we should do something about weed?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 13, 
+            "value": "Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_marijuana", 
+        "text": "Will Crawford support exploring the effects of legalzing marijuana?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_marijuana", 
+        "text": "Can I expect Anderson to support the government ban on weed?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_marijuana", 
+        "text": "Will Hughes expand access to marijuana?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 25, 
+            "value": "Florence Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_space", 
+        "text": "How does Florence Johnson feel about funding space exploration?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Edward Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_space", 
+        "text": "Does Edward Vargas support funding space?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 21, 
+            "value": "Jessica Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_space", 
+        "text": "What does Jessica Lee think about NASA?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Angela Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_space", 
+        "text": "Does Angela Newton want to increase funding for space research?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 34, 
+            "value": "Muhammad Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_space", 
+        "text": "Can you tell me how Muhammad Clark feels about space exploration?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Leon Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_space", 
+        "text": "Does Leon Crawford think we should go to other planets?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 20, 
+            "value": "Marcus Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_space", 
+        "text": "Does Marcus Anderson believe that we should become a multiplanetary species?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 24, 
+            "value": "Isabella Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_space", 
+        "text": "How will Isabella Hughes vote on funding for space issues?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 17, 
+            "value": "Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_space", 
+        "text": "What does Johnson think of space?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_space", 
+        "text": "Does Vargas believe space should be funded by the public?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 8, 
+            "value": "Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_space", 
+        "text": "Does Lee want to privatize space exploration?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_space", 
+        "text": "Will Newton spend money on space research?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 10, 
+            "value": "Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_space", 
+        "text": "Does Clark think we should go to Mars?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 13, 
+            "value": "Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_space", 
+        "text": "Will Crawford support exploring the solar system?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_space", 
+        "text": "Can I expect Anderson to support the government financing of NASA?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_space", 
+        "text": "Will Hughes expand NASA?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 25, 
+            "value": "Florence Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_transit", 
+        "text": "How does Florence Johnson feel about increasing public transportation?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Edward Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_transit", 
+        "text": "Does Edward Vargas support funding public transporation?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 21, 
+            "value": "Jessica Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_transit", 
+        "text": "What does Jessica Lee think about public transporation?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Angela Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_transit", 
+        "text": "Does Angela Newton want to increase funding for buses and subway systems?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 34, 
+            "value": "Muhammad Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_transit", 
+        "text": "Can you tell me how Muhammad Clark feels about public transporation?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Leon Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_transit", 
+        "text": "Does Leon Crawford think we should go fund more transporation options?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 20, 
+            "value": "Marcus Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_transit", 
+        "text": "Does Marcus Anderson believe that we should have more buses and subway systems?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 24, 
+            "value": "Isabella Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_transit", 
+        "text": "How will Isabella Hughes vote on funding for public transport?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 17, 
+            "value": "Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_transit", 
+        "text": "What does Johnson think of public transporation?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_transit", 
+        "text": "Does Vargas believe transporation should be funded by the government?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 8, 
+            "value": "Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_transit", 
+        "text": "Does Lee want to privatize public transporation?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_transit", 
+        "text": "Will Newton spend money on light rail, underground trains, and other transportation?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 10, 
+            "value": "Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_transit", 
+        "text": "Does Clark think we should increase public transporation?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 13, 
+            "value": "Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_transit", 
+        "text": "Will Crawford support public transport?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_transit", 
+        "text": "Can I expect Anderson to support public transit options?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_transit", 
+        "text": "Will Hughes expand public transporation?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 25, 
+            "value": "Florence Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_healthcare", 
+        "text": "How does Florence Johnson feel about healthcare for all?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Edward Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_healthcare", 
+        "text": "Does Edward Vargas support funding universal healthcare?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 21, 
+            "value": "Jessica Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_healthcare", 
+        "text": "What does Jessica Lee think about healthcare for citizens?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Angela Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_healthcare", 
+        "text": "Does Angela Newton want to increase funding for universal healthcare?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 34, 
+            "value": "Muhammad Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_healthcare", 
+        "text": "Can you tell me how Muhammad Clark feels about healthcare for citizens?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Leon Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_healthcare", 
+        "text": "Does Leon Crawford think we should provide healthcare to everybody?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 20, 
+            "value": "Marcus Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_healthcare", 
+        "text": "Does Marcus Anderson believe that we should become a single payer healthcare system?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 24, 
+            "value": "Isabella Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_healthcare", 
+        "text": "How will Isabella Hughes vote on funding for healthcare?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 17, 
+            "value": "Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_healthcare", 
+        "text": "What does Johnson think of universal healthcare?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_healthcare", 
+        "text": "Does Vargas believe healthcare should be funded by the public?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 8, 
+            "value": "Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_healthcare", 
+        "text": "Does Lee want to privatize healthcare?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_healthcare", 
+        "text": "Will Newton spend money on healthcare?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 10, 
+            "value": "Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_healthcare", 
+        "text": "Does Clark think we should go to a universe healthcare model?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 13, 
+            "value": "Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_healthcare", 
+        "text": "Will Crawford support funding universal healthcare?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_healthcare", 
+        "text": "Can I expect Anderson to support the government financing of healthcare?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_healthcare", 
+        "text": "Will Hughes expand healthcare coverage?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 25, 
+            "value": "Florence Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_borders", 
+        "text": "How does Florence Johnson feel about funding more border security?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Edward Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_borders", 
+        "text": "Does Edward Vargas support funding a border wall?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 21, 
+            "value": "Jessica Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_borders", 
+        "text": "What does Jessica Lee think about securing the border?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Angela Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_borders", 
+        "text": "Does Angela Newton want to increase funding for border protection?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 34, 
+            "value": "Muhammad Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_borders", 
+        "text": "Can you tell me how Muhammad Clark feels about borders?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Leon Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_borders", 
+        "text": "Does Leon Crawford think we should spend more on national security?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 20, 
+            "value": "Marcus Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_borders", 
+        "text": "Does Marcus Anderson believe that we should have stronger borders?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 24, 
+            "value": "Isabella Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_borders", 
+        "text": "How will Isabella Hughes vote on funding for a border wall?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 17, 
+            "value": "Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_borders", 
+        "text": "What does Johnson think of border security?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_borders", 
+        "text": "Does Vargas believe a border wall should be funded by the public?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 8, 
+            "value": "Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_borders", 
+        "text": "Does Lee want to privatize border security?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_borders", 
+        "text": "Will Newton spend money on more border protections?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 10, 
+            "value": "Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_borders", 
+        "text": "Does Clark think we should strengthen our borders?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 13, 
+            "value": "Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_borders", 
+        "text": "Will Crawford support stronger borders?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_borders", 
+        "text": "Can I expect Anderson to support the government financing of a border wall?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_borders", 
+        "text": "Will Hughes expand border security?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 25, 
+            "value": "Florence Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_defense", 
+        "text": "How does Florence Johnson feel about defense spending?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Edward Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_defense", 
+        "text": "Does Edward Vargas support funding the defense less?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 21, 
+            "value": "Jessica Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_defense", 
+        "text": "What does Jessica Lee think about the amount of defense funding?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Angela Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_defense", 
+        "text": "Does Angela Newton want to increase funding for defense?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 34, 
+            "value": "Muhammad Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_defense", 
+        "text": "Can you tell me how Muhammad Clark feels about defense spending?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Leon Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_defense", 
+        "text": "Does Leon Crawford think we should spend more on the military?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 20, 
+            "value": "Marcus Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_defense", 
+        "text": "Does Marcus Anderson believe that we should stengthen our military?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 24, 
+            "value": "Isabella Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_defense", 
+        "text": "How will Isabella Hughes vote on funding for a stronger military?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 17, 
+            "value": "Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_defense", 
+        "text": "What does Johnson think of defense spending?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_defense", 
+        "text": "Does Vargas believe more defense should be funded by the public?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 8, 
+            "value": "Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_defense", 
+        "text": "Does Lee want to privatize more of our defense?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_defense", 
+        "text": "Will Newton spend money on defense?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 10, 
+            "value": "Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_defense", 
+        "text": "Does Clark think we should fund the military more?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 13, 
+            "value": "Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_defense", 
+        "text": "Will Crawford support less funding for the military?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_defense", 
+        "text": "Can I expect Anderson to support the government financing of more defense spending?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_defense", 
+        "text": "Will Hughes expand defense spending?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 25, 
+            "value": "Florence Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_internet", 
+        "text": "How does Florence Johnson feel about protecting equal access to the Internet?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Edward Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_internet", 
+        "text": "Does Edward Vargas support Net Neutrality?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 21, 
+            "value": "Jessica Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_internet", 
+        "text": "What does Jessica Lee think about protect the Internet from fast lanes?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Angela Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_internet", 
+        "text": "Does Angela Newton want to increase Internet user protections?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 34, 
+            "value": "Muhammad Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_internet", 
+        "text": "Can you tell me how Muhammad Clark feels about Net Neturality?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Leon Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_internet", 
+        "text": "Does Leon Crawford think we should protect the Internet?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 20, 
+            "value": "Marcus Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_internet", 
+        "text": "Does Marcus Anderson believe that we should do more to protect the Internet?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 24, 
+            "value": "Isabella Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_internet", 
+        "text": "How will Isabella Hughes vote on Net Neutrality?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 17, 
+            "value": "Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_internet", 
+        "text": "What does Johnson think of protecting the Internet from ISPs?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_internet", 
+        "text": "Does Vargas believe the Internet should be free and open?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 8, 
+            "value": "Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_internet", 
+        "text": "Does Lee want to privatize the Internet?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_internet", 
+        "text": "Will Newton support Internet?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 10, 
+            "value": "Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_internet", 
+        "text": "Does Clark think we should have Net Neutrality protections?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 13, 
+            "value": "Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_internet", 
+        "text": "Will Crawford support Net Neutrality?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_internet", 
+        "text": "Can I expect Anderson to support the government protecting the Internet?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_internet", 
+        "text": "Will Hughes expand Internet protections?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 25, 
+            "value": "Florence Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_guncontrol", 
+        "text": "How does Florence Johnson feel about gun control?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Edward Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_guncontrol", 
+        "text": "Does Edward Vargas support restrictions on the purchase of guns?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 21, 
+            "value": "Jessica Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_guncontrol", 
+        "text": "What does Jessica Lee think about gun control protections?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Angela Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_guncontrol", 
+        "text": "Does Angela Newton want to increase gun control restrictions?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 34, 
+            "value": "Muhammad Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_guncontrol", 
+        "text": "Can you tell me how Muhammad Clark feels about the gun purchase process?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Leon Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_guncontrol", 
+        "text": "Does Leon Crawford think we should reduce access to guns?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 20, 
+            "value": "Marcus Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_guncontrol", 
+        "text": "Does Marcus Anderson believe that we should ban guns?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 24, 
+            "value": "Isabella Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_guncontrol", 
+        "text": "How will Isabella Hughes vote on control for guns?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 17, 
+            "value": "Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_guncontrol", 
+        "text": "What does Johnson think of gun control?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_guncontrol", 
+        "text": "Does Vargas believe the government should control public access to guns?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 8, 
+            "value": "Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_guncontrol", 
+        "text": "Does Lee want to let private companies create gun control?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_guncontrol", 
+        "text": "Will Newton pass gun control measures?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 10, 
+            "value": "Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_guncontrol", 
+        "text": "Does Clark think we should do more to stop the gun epidemic?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 13, 
+            "value": "Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_guncontrol", 
+        "text": "Will Crawford support gun restrictions?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_guncontrol", 
+        "text": "Can I expect Anderson to support the government limiting gun rights?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_guncontrol", 
+        "text": "Will Hughes expand gun control protections?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 25, 
+            "value": "Florence Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_corporations", 
+        "text": "How does Florence Johnson feel about corporate money in politics?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Edward Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_corporations", 
+        "text": "Does Edward Vargas support ending the influence of corporations?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 21, 
+            "value": "Jessica Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_corporations", 
+        "text": "What does Jessica Lee think about ending Super PACs?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Angela Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_corporations", 
+        "text": "Does Angela Newton want to increase rules for corporate funding of politics?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 20, 
+            "end": 34, 
+            "value": "Muhammad Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_corporations", 
+        "text": "Can you tell me how Muhammad Clark feels about company lobbying?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 18, 
+            "value": "Leon Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_corporations", 
+        "text": "Does Leon Crawford think we should stop the influence of companies?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 20, 
+            "value": "Marcus Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_corporations", 
+        "text": "Does Marcus Anderson believe that we should not allow corporations to buy elections?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 9, 
+            "end": 24, 
+            "value": "Isabella Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_corporations", 
+        "text": "How will Isabella Hughes vote on ending corporate funding?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 10, 
+            "end": 17, 
+            "value": "Johnson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_corporations", 
+        "text": "What does Johnson think of the role of corporations in elections?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Vargas", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_corporations", 
+        "text": "Does Vargas believe corporations should have so much power in politics?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 8, 
+            "value": "Lee", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_corporations", 
+        "text": "Does Lee want to continue to allow corporate influence in elections?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Newton", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_corporations", 
+        "text": "Will Newton take money from politics?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 10, 
+            "value": "Clark", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_corporations", 
+        "text": "Does Clark think we should end corporate money in politics?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 13, 
+            "value": "Crawford", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_corporations", 
+        "text": "Will Crawford support the ban corporate donations?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 13, 
+            "end": 21, 
+            "value": "Anderson", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_corporations", 
+        "text": "Can I expect Anderson to support the financing of elections by corporations?"
+      }, 
+      {
+        "entities": [
+          {
+            "start": 5, 
+            "end": 11, 
+            "value": "Hughes", 
+            "entity": "name"
+          }
+        ], 
+        "intent": "ask_corporations", 
+        "text": "Will Hughes end corporate donation in politics?"
+      }
+    ], 
+    "entity_synonyms": [], 
+    "regex_features": [], 
+    "lookup_tables": []
+  }
+}

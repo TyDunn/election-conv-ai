@@ -1,0 +1,71 @@
+{
+  "max_histories": [
+    null, 
+    3, 
+    3
+  ], 
+  "python": "2.7.12", 
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble", 
+  "rasa_core": "0.11.1", 
+  "policy_names": [
+    "rasa_core.policies.fallback.FallbackPolicy", 
+    "rasa_core.policies.memoization.MemoizationPolicy", 
+    "rasa_core.policies.keras_policy.KerasPolicy"
+  ], 
+  "action_fingerprints": {
+    "action_ask_space": {
+      "slots": []
+    }, 
+    "utter_greet": {
+      "slots": []
+    }, 
+    "utter_issues": {
+      "slots": []
+    }, 
+    "action_listen": {
+      "slots": []
+    }, 
+    "utter_goodbye": {
+      "slots": []
+    }, 
+    "action_ask_defense": {
+      "slots": []
+    }, 
+    "action_ask_energy": {
+      "slots": []
+    }, 
+    "action_ask_internet": {
+      "slots": []
+    }, 
+    "action_ask_corporations": {
+      "slots": []
+    }, 
+    "utter_help": {
+      "slots": []
+    }, 
+    "action_ask_marijuana": {
+      "slots": []
+    }, 
+    "action_ask_borders": {
+      "slots": []
+    }, 
+    "action_ask_transit": {
+      "slots": []
+    }, 
+    "action_ask_guncontrol": {
+      "slots": []
+    }, 
+    "utter_thanks": {
+      "slots": []
+    }, 
+    "action_ask_healthcare": {
+      "slots": []
+    }, 
+    "action_affirm": {
+      "slots": []
+    }, 
+    "utter_candidates": {
+      "slots": []
+    }
+  }
+}

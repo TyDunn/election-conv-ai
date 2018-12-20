@@ -1,0 +1,67 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - thanks
+  - deny
+  - questionaire
+  - issues
+  - candidates
+  - help
+  - ask_energy
+  - ask_marijuana
+  - ask_space
+  - ask_transit
+  - ask_healthcare
+  - ask_borders
+  - ask_defense
+  - ask_internet
+  - ask_guncontrol
+  - ask_corporations
+
+entities:
+  - name
+
+slots:
+  user_id:
+    type: unfeaturized
+  name:
+    type: text
+
+templates:
+  utter_greet:
+    - "Hey. How can I help? Try our questionaire to figure out who to vote for or ask about how the candidates feel about the issues."
+  utter_goodbye:
+    - "Talk to you later!"
+    - "Bye!"
+    - "Have a great day!"
+  utter_thanks:
+    - "You are very welcome."
+    - "Glad I could help!"
+  utter_issues:
+    - "The issues covered include alternative energy, marijuana legalization, space exploration, public transportation, universal healthcare, border security, defense spending, Net Neutrality, gun control, and corporations."
+  utter_candidates:
+    - "The candidates include Florence Johnson, Edward Vargas, Jessica Lee, Angela Newton, Muhammad Clark, Leon Crawford, Marcus Anderson, Isabella Hughes."
+  utter_help:
+    - "This a fictional election with fictional candidates that will never take place, but we hope you enjoy this prototype!"
+
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_thanks
+  - utter_issues
+  - utter_candidates
+  - utter_help
+  - action_questionaire
+  - action_affirm
+  - action_deny
+  - action_ask_energy
+  - action_ask_marijuana
+  - action_ask_space
+  - action_ask_transit
+  - action_ask_healthcare
+  - action_ask_borders
+  - action_ask_defense
+  - action_ask_internet
+  - action_ask_guncontrol
+  - action_ask_corporations

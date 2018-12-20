@@ -1,0 +1,91 @@
+actions:
+- utter_greet
+- utter_goodbye
+- utter_thanks
+- utter_issues
+- utter_candidates
+- utter_help
+- action_questionaire
+- action_affirm
+- action_deny
+- action_ask_energy
+- action_ask_marijuana
+- action_ask_space
+- action_ask_transit
+- action_ask_healthcare
+- action_ask_borders
+- action_ask_defense
+- action_ask_internet
+- action_ask_guncontrol
+- action_ask_corporations
+config:
+  store_entities_as_slots: true
+entities:
+- name
+intents:
+- questionaire:
+    use_entities: true
+- deny:
+    use_entities: true
+- help:
+    use_entities: true
+- affirm:
+    use_entities: true
+- ask_transit:
+    use_entities: true
+- ask_healthcare:
+    use_entities: true
+- ask_internet:
+    use_entities: true
+- greet:
+    use_entities: true
+- ask_space:
+    use_entities: true
+- ask_defense:
+    use_entities: true
+- candidates:
+    use_entities: true
+- thanks:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- ask_borders:
+    use_entities: true
+- ask_corporations:
+    use_entities: true
+- ask_energy:
+    use_entities: true
+- ask_guncontrol:
+    use_entities: true
+- issues:
+    use_entities: true
+- ask_marijuana:
+    use_entities: true
+slots:
+  name:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  user_id:
+    initial_value: null
+    type: rasa_core.slots.UnfeaturizedSlot
+templates:
+  utter_candidates:
+  - text: The candidates include Florence Johnson, Edward Vargas, Jessica Lee, Angela
+      Newton, Muhammad Clark, Leon Crawford, Marcus Anderson, Isabella Hughes.
+  utter_goodbye:
+  - text: Talk to you later!
+  - text: Bye!
+  - text: Have a great day!
+  utter_greet:
+  - text: Hey. How can I help? Try our questionaire to figure out who to vote for
+      or ask about how the candidates feel about the issues.
+  utter_help:
+  - text: This a fictional election with fictional candidates that will never take
+      place, but we hope you enjoy this prototype!
+  utter_issues:
+  - text: The issues covered include alternative energy, marijuana legalization, space
+      exploration, public transportation, universal healthcare, border security, defense
+      spending, Net Neutrality, gun control, and corporations.
+  utter_thanks:
+  - text: You are very welcome.
+  - text: Glad I could help!

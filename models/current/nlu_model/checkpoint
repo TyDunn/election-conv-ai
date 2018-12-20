@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/ubuntu/ling395_project/models/current/nlu_model/intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "/home/ubuntu/ling395_project/models/current/nlu_model/intent_classifier_tensorflow_embedding.ckpt"
