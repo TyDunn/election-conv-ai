@@ -831,3 +831,42 @@ In most other cases you should consider using 'safe_load(stream)'
   data = yaml.load(stream)
 
 Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Restoring parameters from models/current/nlu_model/intent_classifier_tensorflow_embedding.ckpt
+/home/ubuntu/.local/lib/python2.7/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_questionaire'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_questionaire'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to execute custom action.
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/rasa_core/processor.py", line 319, in _run_action
+    events = action.run(dispatcher, tracker, self.domain)
+  File "/home/ubuntu/.local/lib/python2.7/site-packages/rasa_core/actions/action.py", line 334, in run
+    raise Exception("Failed to execute custom action.")
+Exception: Failed to execute custom action.
+Rasa process starting
+Added 'nlp_spacy' to component cache. Key 'nlp_spacy-en'.
+Restoring parameters from models/current/nlu_model/intent_classifier_tensorflow_embedding.ckpt
+/home/ubuntu/.local/lib/python2.7/site-packages/pykwalify/core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005

@@ -118,6 +118,16 @@
     - action_deny
 * affirm
     - action_affirm
+* affirm
+    - action_affirm
+* affirm
+    - action_affirm
+* affirm
+    - action_affirm
+* deny
+    - action_deny
+* affirm
+    - action_affirm
 
 
 ## determine_ballot_02
@@ -125,6 +135,16 @@
     - utter_greet
 * questionaire
     - action_questionaire
+* affirm
+    - action_affirm
+* affirm
+    - action_affirm
+* affirm
+    - action_affirm
+* affirm
+    - action_affirm
+* affirm
+    - action_affirm
 * affirm
     - action_affirm
 * affirm
@@ -154,6 +174,16 @@
     - action_deny
 * deny
     - action_deny
+* deny
+    - action_deny
+* deny
+    - action_deny
+* deny
+    - action_deny
+* deny
+    - action_deny
+* deny
+    - action_deny
 * goodbye
     - utter_goodbye
 
@@ -173,6 +203,16 @@
     - action_deny
 * affirm
     - action_affirm
+* deny
+    - action_deny
+* deny
+    - action_deny
+* affirm
+    - action_affirm
+* deny
+    - action_deny
+* affirm
+    - action_affirm
 * goodbye
     - utter_goodbye
 
@@ -182,6 +222,16 @@
     - utter_greet
 * questionaire
     - action_questionaire
+* deny
+    - action_deny
+* affirm
+    - action_affirm
+* deny
+    - action_deny
+* affirm
+    - action_affirm
+* deny
+    - action_deny
 * deny
     - action_deny
 * affirm

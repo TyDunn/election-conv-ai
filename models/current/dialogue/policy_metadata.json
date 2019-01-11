@@ -13,13 +13,10 @@
     "rasa_core.policies.keras_policy.KerasPolicy"
   ], 
   "action_fingerprints": {
-    "action_ask_space": {
+    "action_affirm": {
       "slots": []
     }, 
     "utter_greet": {
-      "slots": []
-    }, 
-    "utter_issues": {
       "slots": []
     }, 
     "action_listen": {
@@ -28,19 +25,22 @@
     "utter_goodbye": {
       "slots": []
     }, 
+    "action_ask_space": {
+      "slots": []
+    }, 
     "action_ask_defense": {
       "slots": []
     }, 
     "action_ask_energy": {
       "slots": []
     }, 
-    "action_ask_internet": {
+    "action_ask_healthcare": {
       "slots": []
     }, 
     "action_ask_corporations": {
       "slots": []
     }, 
-    "utter_help": {
+    "utter_thanks": {
       "slots": []
     }, 
     "action_ask_marijuana": {
@@ -55,13 +55,13 @@
     "action_ask_guncontrol": {
       "slots": []
     }, 
-    "utter_thanks": {
+    "utter_help": {
       "slots": []
     }, 
-    "action_ask_healthcare": {
+    "utter_issues": {
       "slots": []
     }, 
-    "action_affirm": {
+    "action_ask_internet": {
       "slots": []
     }, 
     "utter_candidates": {
