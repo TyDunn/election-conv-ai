@@ -1,5 +1,5 @@
-Author: Ty Dunn
-Created: December 2018
+## Author: Ty Dunn
+## Created: December 2018
 
 # Setup
 
@@ -9,7 +9,6 @@ Clone Repo
 Install
 - `pip install -r requirements.txt`
 - `python -m spacy download en`
-- Install `Flask` and `SQLite`
 
 Makefile
 - `make train-nlu`
@@ -24,6 +23,7 @@ Makefile
 - config
 
 # How to use this?
+Once you have everything up and running:
 - Say hello! 
 - Ask the interface to start the questionnaire
 - Answer the ten questions asked by the interface
